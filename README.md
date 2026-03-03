@@ -53,7 +53,3 @@ All settings are in config.py. Key options:
 - Better accuracy: swap VADER for a HuggingFace Transformer in sentiment_analyzer.py
 - Export: add pd.DataFrame(analyzer.results).to_csv(results.csv) in main.py
 - Schedule: wrap main() with APScheduler
-
-## License
-
-MIT
